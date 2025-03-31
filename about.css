@@ -1,0 +1,86 @@
+:root {
+    --primary: #5a125a;
+    --primary-dark: #000000;
+    --primary-light: #850f9a;
+    --primary-shadow: #2d1246;
+}
+
+
+/* About Section */
+.about { 
+    text-align: center;
+    padding-top: 130px;
+    background: #00000000;
+}
+
+.about h2 {
+    color: var(--primary-light);
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Skills Section */
+.skills {
+    background: #00000000;
+    color: var(--primary-light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills li {
+    color: #fff;
+    background: var(--primary-dark);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* achievements Section */
+.achievements {
+    padding: 50px 20px;
+    background: #00000000;
+}
+
+.achievements h2 {
+    text-align: center;
+    color: var(--primary-light);
+    font-size: 2rem;
+}
+
+.achievements-item {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.achievements-item h3 {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #00000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

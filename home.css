@@ -1,0 +1,203 @@
+:root {
+    --primary: #5a125a;
+    --primary-dark: #000000;
+    --primary-light: #850f9a;
+    --primary-shadow: #2d1246;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00000000;
+}
+
+.hero-section{
+    padding-top: 220px;
+}
+
+.container {
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    width: 50px;
+    left: 0;
+    background: #272727;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #b1b1b1;
+}
+.sidebar h2 {
+    color: #b1b1b1;
+}
+
+
+
+/* Content Styling */
+.content {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title span {
+    color: #6a0dad;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+}   
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.hero-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px var(--primary-dark);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.btn {
+    background-color: var(--primary-light);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background: #9333ea;
+    
+}
+
+.action-btn a{
+    color:#ffffff;
+}
+
+/*about section*/
+.about-section{
+    padding-top: 170px;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-box {
+    background: #1f1f1f;    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    flex: 1;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--primary-shadow);
+}
+
+
+/* Project Grid */
+.education-section{
+    padding-top: 170px;
+}
+
+.educ-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.educ-card {
+    background: #1f1f1f;    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    flex: 1;
+}
+
+.educ-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--primary-shadow);
+}
+
+.educ-grid h4 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.educ-card .school {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.educ-grid .year {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.educ-grid .description {
+    color: #444;
+    line-height: 1.6;
+}
+
+.about {
+    background-color: #ffffff;
+}

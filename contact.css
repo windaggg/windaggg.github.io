@@ -1,0 +1,132 @@
+:root {
+    --primary: #5a125a;
+    --primary-dark: #000000;
+    --primary-light: #850f9a;
+    --primary-shadow: #2d1246;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    text-align: center; 
+}
+
+.contact-main .contact-hero {
+    background: #00000000;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-main .contact-hero .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-main .contact-hero .profile-container .profile-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-main .contact-hero .profile-container .profile-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-main .contact-hero .profile-container .profile-info .subtitle {
+    font-size: 18px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-main .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-main .contact-card {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.contact-main .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--primary-shadow);
+}
+
+.contact-main .contact-card h3 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-main .contact-card a {
+    color: var(--primary);
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-main .contact-card a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 40px;
+}
+
+social-links h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.social-card {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.social-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--primary-shadow);
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    background: var(--primary-dark);
+    margin-top: 40px;
+}

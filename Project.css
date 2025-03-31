@@ -1,0 +1,19 @@
+/* Project Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #1f1f1f;    
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px #2d1246;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
